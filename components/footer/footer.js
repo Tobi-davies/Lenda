@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="bg-navyBlue py-8 text-white">
-      <div className="max-w-[1300px] mx-auto px-10 flex gap-10">
+      <div className="max-w-[1300px] mx-auto px-5 md:px-10 flex flex-col md:flex-row gap-10">
         <div className="max-w-[350px]">
           <h3 className="text-2xl font-bold mb-3">LENDA</h3>
           <p>

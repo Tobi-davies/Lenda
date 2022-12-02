@@ -10,7 +10,7 @@ const ReserveSection = () => {
         Total Borrowed: <span>1 MATIC</span>
       </p>
 
-      <div className="flex gap-5">
+      <div className="flex flex-col md:flex-row gap-5">
         <button className="bg-[#cb2d83] py-2 px-20 ">Deposit</button>
         <button className="bg-[#7e5bd6] py-2 px-20 ">Borrow</button>
       </div>

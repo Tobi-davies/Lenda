@@ -17,14 +17,14 @@ export default function Home() {
     <>
       {" "}
       <div className="bg-darkNavyBlue">
-        <div className="max-w-[1300px] mx-auto px-10 mb-20">
-          <div className="flex pt-10 mb-20 gap-5">
-            <div className="w-1/2 text-[#fff] pt-16">
-              <h1 className="text-4xl font-bold mb-8 max-w-[480px]">
+        <div className="max-w-[1300px] mx-auto px-5 md:px-10 mb-20">
+          <div className="flex flex-col lg:flex-row pt-5 lg:pt-10 mb-20 gap-5">
+            <div className="w-full lg:w-1/2 text-[#fff] pt-6 lg:pt-16">
+              <h1 className="text-4xl text-center lg:text-start font-bold mb-8 max-w-[480px] mx-auto lg:mx-0">
                 Use your NFT as Collateral to borrow MATIC or lend your MATIC to
                 earn yields instantly
               </h1>
-              <div className="flex gap-5">
+              <div className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start">
                 <button className="bg-[#cb2d83] py-4 px-20 ">Deposit</button>
                 <button
                   className="bg-[#7e5bd6] py-2 px-20"
@@ -34,7 +34,7 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className="w-1/2 h-[400px]">
+            <div className="w-full lg:w-1/2 mt-10 lg:mt-0 h-[400px]">
               <div className="flex">
                 <div
                   className="h-[200px] w-[50%] bg-black rounded-t-md"
