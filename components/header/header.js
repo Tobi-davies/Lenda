@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../../styles/Header.module.css";
 import { FaAngleDown } from "react-icons/fa";
 import Link from "next/link";
+import { CustomBtn } from "../customBtn/customBtn";
 
 const navItems = [
   {
@@ -129,7 +130,8 @@ const Header = () => {
           })}
         </ul>
 
-        <button className="px-3 py-2 rounded-md bg-[#7e5bd6]">Connect</button>
+        {/* <button className="px-3 py-2 rounded-md bg-[#7e5bd6]">Connect</button> */}
+        <CustomBtn />
       </div>
     </div>
   );
